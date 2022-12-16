@@ -1,0 +1,80 @@
+body {
+    background: url('assets/background.png') no-repeat;
+    background-size: 200vh;
+    text-align: center;
+}
+
+audio {
+    display: none;
+}
+
+.container {
+    display: flex;
+}
+
+.grid {
+    position: relative;
+    margin-left: calc(50vw - 150px);
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background: black;
+    border-left: 5px solid rgb(16, 21, 94);
+    border-right: 5px solid rgb(16, 21, 94);
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.tetronimo {
+    background-color: blue;
+}
+
+.mini-container {
+    display: block;
+    line-height: 40px;
+    margin-left: 5px;
+}
+
+.mini-grid {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: darkslategrey;
+    border: 5px solid rgb(16, 21, 94);
+}
+
+.mini-grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.mini-counter {
+    margin-top: 2vh;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: darkslategrey;
+    border: 5px solid rgb(16, 21, 94);
+}
+
+h3 {
+    margin: 2px;
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+}
+
+span {
+    color: lightgray;
+}
+
+.logo {
+    margin-left: 15px;
+    width: 210px;
+}
